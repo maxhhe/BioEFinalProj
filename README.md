@@ -17,3 +17,5 @@ Follow the data loading instructions with these links:
 Replace the config.json file in your JBrowse2 folder with the provided one in this repo in order to set up the default view. 
 
 You will now be able to open your localhost browser and visualise the genomes using JBrowse2.
+
+To access an example of the working JBrowse2 please use this link: https://curious-dasik-d621fb.netlify.app/?session=local-kTe-lfjua9tRT2i2PyXUf
