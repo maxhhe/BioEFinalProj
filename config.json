@@ -1,0 +1,372 @@
+{
+  "assemblies": [
+    {
+      "name": "hg38",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hg38-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "hg38.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "hg38.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "sars",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "sars-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "sars.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "sars.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "hcoc43",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hcoc43-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "hcoc43.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "hcoc43.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "mers",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "mers-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "mers.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "mers.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+      
+    "drawerPosition": "right",
+    "drawerWidth": 384,
+    "widgets": {
+      "GridBookmark": {
+        "id": "GridBookmark",
+        "type": "GridBookmarkWidget"
+      },
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "view": "OQ5pwbYBCLCisRJYN5rnf",
+        "faceted": {
+          "filterText": "",
+          "showSparse": false,
+          "showFilters": true,
+          "showOptions": false,
+          "panelWidth": 400
+        }
+      }
+    },
+    "activeWidgets": {},
+    "minimized": false,
+    "id": "kTe-lfjua9tRT2i2PyXUf",
+    "name": "New session 12/11/2024, 1:01:04 PM",
+    "margin": 0,
+    "views": [
+      {
+        "id": "RodIPKij1sHtfcsB2FLXf",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": -373,
+        "bpPerPx": 0.020000000000000004,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NC_019843.3",
+            "start": 0,
+            "end": 30119,
+            "assemblyName": "mers"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "yjUnuZVz5l_o3HEy6ckyZ",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "mers-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "RgnFc6_ee_VOGSkOIKGcG",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 120,
+                "configuration": "mers-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": true,
+                "showTranslation": true
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "JhCj9ZuFOFvUASMdNvRoH",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": -368,
+        "bpPerPx": 0.020000000000000004,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NC_006213.1",
+            "start": 0,
+            "end": 30741,
+            "assemblyName": "hcoc43"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "UwhbzbgrVPxYooGUXntcF",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "hcoc43-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "H8agedr50VpSiJBJmh-6W",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 120,
+                "configuration": "hcoc43-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": true,
+                "showTranslation": true
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "OQ5pwbYBCLCisRJYN5rnf",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": -375,
+        "bpPerPx": 0.020000000000000004,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NC_045512.2",
+            "start": 0,
+            "end": 29903,
+            "assemblyName": "sars"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "0V16O4KL8bagYs_NAfPvC",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "sars-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "FSjwdxcFPPzV-Jx_yi-G1",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 120,
+                "configuration": "sars-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": true,
+                "showTranslation": true
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "OQ5pwbYBCLCisRJYN5rnf",
+    "sessionPlugins": []
+  
+    
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "genes.gff",
+      "name": "genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "sarsgenes.gff",
+      "name": "sarsgenes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "sarsgenes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "sarsgenes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "sars.fa"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "hcoc43genes.gff",
+      "name": "hcoc43genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "hcoc43genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "hcoc43genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "hcoc43.fa"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "mersgenes.gff",
+      "name": "mersgenes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "mersgenes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "mersgenes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "mers.fa"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "hg38-index",
+      "ixFilePath": {
+        "uri": "trix/hg38.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/hg38.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/hg38_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    }
+  ]
+}
