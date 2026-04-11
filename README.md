@@ -1,4 +1,4 @@
-# J2Browse Instance
+# JBrowse2 Instance
 
 This README will provide a step by step walk through of how to set up an instance of JBrowse2 to visualize the difference in genomes of specific Coronavirus taxons. 
 
